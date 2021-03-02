@@ -4,7 +4,8 @@
   "description": "This is the presentation website of the bakangoa startup",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=http,logs,error nodemon"
+    "start": "DEBUG=http,logs,error node index.js",
+    "test": "DEBUG=http,logs,error node index.js"
   },
   "keywords": [
     "bakangoa",
