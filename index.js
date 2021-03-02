@@ -7,7 +7,7 @@ const compression = require("compression");
 
 
 const app = express();
-const http_port = 8080;
+const http_port = process.env.PORT || 8000;
 
 
 // Setting app configurations
