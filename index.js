@@ -27,6 +27,8 @@ app.use((req, res, next) => {
     next();
 });
 
+debug("Port : " + http_port);
+
 
 // Setting views configurations
 
